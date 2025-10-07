@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Laveda</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Laveda Logo" class="logo"/>
+    <nav>
+      <a href="#tour">Tour Dates</a>
+      <a href="https://www.youtube.com/@Laveda" target="_blank" rel="noopener">Videos</a>
+      <a href="https://lavedamusic.bandcamp.com/" target="_blank" rel="noopener">Merch</a>
+      <a href="https://open.spotify.com/artist/4k9HOB4zrVAEasP7nm31F7?si=6ftGoQLBRcqWSzEsawI8Qg" target="_blank" rel="noopener">Spotify</a>
+      <a href="https://music.apple.com/us/artist/laveda/1441467294" target="_blank" rel="noopener">Apple Music</a>
+      <a href="https://soundcloud.com/lavedamusic" target="_blank" rel="noopener">SoundCloud</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="section">
+    <img src="band-photo.jpg" alt="Laveda Band Photo" class="featured-img"/>
+  </section>
+
+  <section id="tour" class="section">
+    <h1>Tour Dates</h1>
+    <!-- Bandsintown Widget Embed -->
+    <script charset="utf-8" src="https://widgetv3.bandsintown.com/main.min.js"></script>
+    <a class="bit-widget-initializer"
+      data-artist-name="id_8657709"
+      data-events-to-display=""
+      data-background-color="#232323"
+      data-separator-color="#333"
+      data-text-color="#ededed"
+      data-font="Inter"
+      data-auto-style="false"
+      data-button-label-capitalization="uppercase"
+      data-header-capitalization="uppercase"
+      data-location-capitalization="uppercase"
+      data-venue-capitalization="uppercase"
+      data-display-local-dates="true"
+      data-local-dates-position="tab"
+      data-display-past-dates="true"
+      data-display-details="false"
+      data-display-lineup="false"
+      data-display-start-time="false"
+      data-social-share-icon="false"
+      data-display-limit="all"
+      data-date-format="MMM. D, YYYY"
+      data-date-orientation="horizontal"
+      data-date-border-color="#4A4A4A"
+      data-date-border-width="1px"
+      data-date-capitalization="capitalize"
+      data-date-border-radius="10px"
+      data-event-ticket-cta-size="medium"
+      data-event-custom-ticket-text=""
+      data-event-ticket-text="TICKETS"
+      data-event-ticket-icon="false"
+      data-event-ticket-cta-text-color="rgba(255,255,255,1)"
+      data-event-ticket-cta-bg-color="#181818"
+      data-event-ticket-cta-border-color="#181818"
+      data-event-ticket-cta-border-width="0px"
+      data-event-ticket-cta-border-radius="2px"
+      data-sold-out-button-text-color="rgba(255,255,255,1)"
+      data-sold-out-button-background-color="#4A4A4A"
+      data-sold-out-button-border-color="#4A4A4A"
+      data-sold-out-button-clickable="true"
+      data-event-rsvp-position="left"
+      data-event-rsvp-cta-size="medium"
+      data-event-rsvp-only-show-icon="false"
+      data-event-rsvp-text="RSVP"
+      data-event-rsvp-icon="false"
+      data-event-rsvp-cta-text-color="#4A4A4A"
+      data-event-rsvp-cta-bg-color="#ededed"
+      data-event-rsvp-cta-border-color="#4A4A4A"
+      data-event-rsvp-cta-border-width="1px"
+      data-event-rsvp-cta-border-radius="2px"
+      data-follow-section-position="top"
+      data-follow-section-alignment="center"
+      data-follow-section-header-text="Get updates on new shows, new music, and more"
+      data-follow-section-cta-size="medium"
+      data-follow-section-cta-text="FOLLOW"
+      data-follow-section-cta-icon="false"
+      data-follow-section-cta-text-color="rgba(255,255,255,1)"
+      data-follow-section-cta-bg-color="#4A4A4A"
+      data-follow-section-cta-border-color="#4A4A4A"
+      data-follow-section-cta-border-width="0px"
+      data-follow-section-cta-border-radius="2px"
+      data-play-my-city-position="bottom"
+      data-play-my-city-alignment="center"
+      data-play-my-city-header-text="Don’t see a show near you?"
+      data-play-my-city-cta-size="medium"
+      data-play-my-city-cta-text="REQUEST A SHOW"
+      data-play-my-city-cta-icon="false"
+      data-play-my-city-cta-text-color="rgba(255,255,255,1)"
+      data-play-my-city-cta-bg-color="#4A4A4A"
+      data-play-my-city-cta-border-color="#4A4A4A"
+      data-play-my-city-cta-border-width="0px"
+      data-play-my-city-cta-border-radius="2px"
+      data-language="en"
+      data-layout-breakpoint="900"
+      data-bit-logo-position="bottomRight"
+      data-bit-logo-color="#ededed"
+    ></a>
+  </section>
+
+  <section id="contact" class="section">
+    <h1>Contact</h1>
+    <p>Email us at <a href="mailto:info@lavedamusic.com">info@lavedamusic.com</a> or follow us on
+      <a href="https://instagram.com/lavedamusic" target="_blank">Instagram</a>
+    </p>
+    <!-- Or add a contact form here -->
+  </section>
+</body>
+</html>
